@@ -20,7 +20,7 @@ mdl = gpt2;
 %% Load Data
 % Extract the help text for the |eigs| function.
 
-inputText = help('eigs')
+inputText = help('sqrt')
 
 %% Generate Summary
 % Summarize the text using the |generateSummary| function.

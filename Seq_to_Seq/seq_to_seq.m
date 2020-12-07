@@ -88,7 +88,7 @@ parameters.decoder.fc.Weights = initializeGlorot(sz,numOut,numIn);
 parameters.decoder.fc.Bias = initializeZeros([outputSize 1]);
 
 miniBatchSize = 32;
-numEpochs = 10;
+numEpochs = 85;
 learnRate = 0.002;
 
 gradientDecayFactor = 0.9;
